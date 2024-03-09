@@ -1,0 +1,74 @@
+.btn,
+.header__name {
+  display: inline-block;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: var(--clr-bleu);
+  color: var(--clr-light);
+  padding: 0 4px;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgba(2, 132, 199, 0.4), 0 6px 6px rgba(2, 132, 199, 0.4), 0 0 100px -10px var(--clr-bleu);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover,
+.header__name:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px rgba(2, 132, 199, 0.2), 0 10px 10px rgba(2, 132, 199, 0.35), 0 0 120px -10px var(--clr-bleu);
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+}
+
+section {
+  margin-top: 5rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .section {
+  margin-top: 5rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
